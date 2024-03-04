@@ -32,7 +32,16 @@
             "styles": [
               "src/styles.scss"
             ],
+<<<<<<< HEAD
             "scripts": []
+=======
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
+>>>>>>> origin/main
           },
           "configurations": {
             "production": {
