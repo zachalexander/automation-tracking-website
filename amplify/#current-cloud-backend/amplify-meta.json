@@ -11,5 +11,48 @@
       "StackId": "arn:aws:cloudformation:us-east-1:436448118053:stack/amplify-flowtrackingwebsite-dev-142851/efe89c70-d801-11ee-88b9-0a540aae8ccd",
       "AmplifyAppId": "d1ucblkdste6lm"
     }
+  },
+  "auth": {
+    "flowtrackingwebsitec280d145": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-flowtrackingwebsite-dev-142851-deployment/amplify-cfn-templates/auth/flowtrackingwebsitec280d145-cloudformation-template.json",
+        "logicalId": "authflowtrackingwebsitec280d145"
+      },
+      "lastPushTimeStamp": "2024-03-15T18:46:58.931Z",
+      "output": {
+        "UserPoolId": "us-east-1_NKDKk0UDz",
+        "AppClientIDWeb": "mjgmh8qgu61o2ohv26mk0g1ro",
+        "AppClientID": "1rmu3nroie9qs7q135lvivtjlp",
+        "IdentityPoolId": "us-east-1:08fe11a5-0476-498f-9a4f-03395621949a",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:436448118053:userpool/us-east-1_NKDKk0UDz",
+        "IdentityPoolName": "flowtrackingwebsitec280d145_identitypool_c280d145__dev",
+        "UserPoolName": "flowtrackingwebsitec280d145_userpool_c280d145"
+      },
+      "lastPushDirHash": "kbuGUmbspVMf8dLfEhhroFOVJmY="
+    }
   }
 }

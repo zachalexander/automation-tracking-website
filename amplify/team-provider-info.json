@@ -10,6 +10,11 @@
       "StackName": "amplify-flowtrackingwebsite-dev-142851",
       "StackId": "arn:aws:cloudformation:us-east-1:436448118053:stack/amplify-flowtrackingwebsite-dev-142851/efe89c70-d801-11ee-88b9-0a540aae8ccd",
       "AmplifyAppId": "d1ucblkdste6lm"
+    },
+    "categories": {
+      "auth": {
+        "flowtrackingwebsitec280d145": {}
+      }
     }
   }
 }
