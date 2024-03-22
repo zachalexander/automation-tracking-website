@@ -1,60 +1,103 @@
 body {
-    font-family: "Roboto" sans-serif;
+  font-family: "Roboto" sans-serif;
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-
 .sidebar {
-    position: fixed;
-    left: 0px;
-    width: 250px;
-    height: 100%;
-    background: lightgray;
+  position: fixed;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background: lightgray;
 }
-
 .sidebar ul a {
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: black;
-    padding-left: 30%;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(7, 1, 1, 0.1);
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: black;
+  padding-left: 30%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(7, 1, 1, 0.1);
 }
-
 ul li:hover a {
-    padding-left: 50px;
+  padding-left: 50px;
 }
-
 .main--content {
-    position: fixed;
-    left: 250px;
-    background: white;
-    width: 75%;
-    padding: 1rem;
+  position: fixed;
+  left: 250px;
+  background: white;
+  width: 75%;
+  padding: 1rem;
 }
-
 .header--wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background: white;
-    border-radius: 10px;
-    padding: 10px 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 2rem;
 }
-
 .user--info {
-    background: white;
-    padding: 10px 2rem;
-    border-radius: 2px;
-    box-sizing: border-box;
-    border-bottom: 1px solid rgba(7, 1, 1, 0.1);
+  background: white;
+  padding: 10px 2rem;
+  border-radius: 2px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(7, 1, 1, 0.1);
+}
+.user--workpage--buttons {
+  padding-top: 2%;
+}
+.automation-buttons {
+  padding-top: 2%;
+  padding-left: 3%;
+}
+.this-week-wrapper {
+  margin-top: 3%;
+  border-radius: 10px;
+  padding: 2 rem;
+}
+.this-week-container {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.next-week-wrapper {
+  margin-top: 1 rem;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.next-week-container {
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+th {
+  padding: 15px;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+td {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid black;
+}
+tfoot td {
+  padding: 15px;
+}
+.table-container button {
+  cursor: pointer;
 }
